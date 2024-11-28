@@ -13,3 +13,11 @@ Realizowany przez:
 
 Komenda uruchomienia topologii:
 _sudo mn --custom topology.py --topo mytopo_
+
+
+Generacja ruchu dla topologii podstawowej:\
+*sudo mn*\
+*xterm h1 h2*\
+Uruchomienie skryptów w konsoli hostów:\
+Host h1: *bash h1.sh*\
+Host h2: *bash h2.sh*
