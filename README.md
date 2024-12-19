@@ -22,7 +22,7 @@ Uruchomienie skryptów w konsoli hostów:\
 Host h1: *bash h1.sh*\
 Host h2: *bash h2.sh*
 
-Algorytm:
+## Diagram pseudokodu:
 
 ![obraz](https://github.com/user-attachments/assets/42db7d91-e2b7-48a6-a4ca-f68a27530ea5)
 
