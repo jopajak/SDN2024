@@ -7,7 +7,7 @@
 #sudo apt install tcpdump
 
 # Set up parameters
-TARGET_IP="10.0.0.2"
+TARGET_IP="10.0.0.1"
 PORTS=(16384 16385 16386)   
 # PCAP_FILE="mininet_traffic.pcap"
 
