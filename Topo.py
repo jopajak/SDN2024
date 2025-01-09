@@ -15,14 +15,14 @@ class Topology (Topo):
 		goraSwitch = self.addSwitch("s4")
 	
 		#Links in our topology
-		self.addLink(lewyhost, lewySwitch)
-		self.addLink(lewySwitch, dolSwitch)
-		self.addLink(lewySwitch, goraSwitch)
-		self.addLink(dolSwitch, prawySwitch)
-		self.addLink(prawySwitch, prawyhost)
-		self.addLink(goraSwitch, prawySwitch)
+		self.addLink(lewyhost, lewySwitch, cls=TCLink, bw=100)
+		self.addLink(lewySwitch, dolSwitch, cls=TCLink, bw=100)
+		self.addLink(lewySwitch, goraSwitch, cls=TCLink, bw=100)
+		self.addLink(dolSwitch, prawySwitch, cls=TCLink, bw=100)
+		self.addLink(prawySwitch, prawyhost, cls=TCLink, bw=100)
+		self.addLink(goraSwitch, prawySwitch, cls=TCLink, bw=100)
 
 topos = {'mytopo': (lambda: Topology() ) }
 
-# sudo mn --custom /home/floodlight/Desktop/Projekt_SDN/Topo.py --topo mytopo
+# sudo mn --custom /home/floodlight/Desktop/Projekt_SDN/Topo.py --topo mytopo --link=tc
 	
