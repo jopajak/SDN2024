@@ -12,7 +12,7 @@ Realizowany przez:
 ![topologia_my_topo](https://github.com/user-attachments/assets/327822bb-de18-4d74-846b-41ffae9960f8)
 
 Komenda uruchomienia topologii:
-_sudo mn --custom topology.py --topo mytopo_
+_sudo mn --custom Topo.py --topo mytopo_
 
 
 Generacja ruchu dla topologii podstawowej:\
