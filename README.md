@@ -16,6 +16,7 @@ _sudo mn --custom topology.py --topo mytopo_
 
 
 Generacja ruchu dla topologii podstawowej:\
+* sudo apt-get install hping3 -y # zainstaluj program Hping3
 *sudo mn*\
 *xterm h1 h2*\
 Uruchomienie skryptów w konsoli hostów:\
