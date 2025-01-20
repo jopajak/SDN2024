@@ -25,6 +25,7 @@ Host h2: *bash h2.sh*
 
 ## Diagram pseudokodu:
 
-![obraz](https://github.com/user-attachments/assets/42db7d91-e2b7-48a6-a4ca-f68a27530ea5)
+![obraz](https://github.com/user-attachments/assets/fb100162-14c6-4c15-a4eb-85d2a875b2d1)
+
 
 
