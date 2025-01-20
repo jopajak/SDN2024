@@ -25,5 +25,5 @@ class Topology (Topo):
 
 topos = {'mytopo': (lambda: Topology() ) }
 
-# sudo mn --custom /home/floodlight/Desktop/Projekt_SDN/Topo.py --topo mytopo --link=tc
+# sudo mn --custom /home/floodlight/Desktop/Projekt_SDN/Topo.py --topo mytopo --link=tc --controller=remote,ip=127.0.0.1,port=6653
 	
