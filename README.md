@@ -1,4 +1,4 @@
-# SDN2024
+# SDN2024: QoS for a specific type of data traffic
 
 Projekt __"QoS for a specific type of data traffic"__ realizowany w ramach przedmiotu _Sieci Sterowane Programowo_.
 
