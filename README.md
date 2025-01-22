@@ -7,16 +7,17 @@ Realizowany przez:
 * Joanna Pająk
 * Magdalena Podsiadło
 
-# Kod kontrolera Floodlight
+
+## Kod kontrolera Floodlight
 
 Repozytorium zawiera klasy kontrolera Floodlight v1.2, które zostały zmienione w ramach naszego projektu.
 
-## Pełny kod źródłowy
+### Pełny kod źródłowy
 Pełny kod źródłowy kontrolera Floodlight v1.2, który można bezpośrednio rozpakować i uruchomić, znajduje się pod adresem:  
 [Pełny kod źródłowy Floodlight v1.2](https://drive.google.com/drive/folders/1qnSGO91XvutRrXoLWzKFYeglNx3ZJCt6?usp=sharing)  
 *(Nie mógł być umieszczony na GitHubie, ponieważ przekracza maksymalny dozwolony rozmiar pliku).*
 
-## Zmodyfikowane pliki
+### Zmodyfikowane pliki
 Dokonywaliśmy zmian jedynie w plikach, które znajdują się w folderze: \src\main\java\pl\edu\agh\kt w kodzie z laboratorium 7. W związku z tym, w repozytorium zamieściliśmy wszystkie klasy z tego miejsca w folderze **`Floodlight-SDN-Code`**.
 
 ## Topologia sieci
