@@ -35,10 +35,10 @@ Dokonywaliśmy zmian jedynie w plikach, które znajdują się w folderze: \src\m
 
 
 ## Wymagania
-* Środowisko wirtualizacyjne (e.g. Oracle VirtualBox) z zainstalowaną maszyną wirtualną Floodlight\
-* Mininet\
-* hping3 (*sudo apt-get install hping3*)\
-* Netcat (*sudo apt install netcat*)\
+* Środowisko wirtualizacyjne (e.g. Oracle VirtualBox) z zainstalowaną maszyną wirtualną Floodlight
+* Mininet
+* hping3 (*sudo apt-get install hping3*)
+* Netcat (*sudo apt install netcat*)
 * Xterm (optional)
 
 ## Uruchomienie
