@@ -34,23 +34,22 @@ Dokonywaliśmy zmian jedynie w plikach, które znajdują się w folderze: \src\m
 ![obraz](https://github.com/user-attachments/assets/fb100162-14c6-4c15-a4eb-85d2a875b2d1)
 
 
-
 ## Wymagania
-Środowisko wirtualizacyjne (e.g. Oracle VirtualBox) z zainstalowaną maszyną wirtualną Floodlight\
-Mininet\
-hping3 (*sudo apt-get install hping3*)\
-Netcat (*sudo apt install netcat*)\
-Xterm (optional)\
+* Środowisko wirtualizacyjne (e.g. Oracle VirtualBox) z zainstalowaną maszyną wirtualną Floodlight\
+* Mininet\
+* hping3 (*sudo apt-get install hping3*)\
+* Netcat (*sudo apt install netcat*)\
+* Xterm (optional)
 
 ## Uruchomienie
 1. Uruchomić maszynę wirtualną.
 2. Pobrać kod projektu, pliki h1.sh, h2.sh służące do generacji ruchu oraz Topo.py (zawierający topologię)
 3. Uruchomić kontroler floodlight z użyciem IDE (e.g. Eclipse) lub z terminala (w katalogu głównym kontrolera wydać następujące polecenie: *java -jar target/floodlight.jar*)
-4. Otworzyć inną konsolę, sprawdzić IP kontrolera poleceniem *ifconfig*
-5. Uruchomić środowisko Mininet poleceniem: *sudo mn --custom Topo.py --topo mytopo --controller=remote,ip=<controller_ip>,port=6653
+4. Otworzyć inną konsolę, sprawdzić IP kontrolera poleceniem *ifconfig* (lub użyć adresu 127.0.0.1)
+5. Uruchomić środowisko Mininet poleceniem: *sudo mn --custom /path/to/file/Topo.py --topo mytopo --link=tc --controller=remote,ip=127.0.0.1,port=6653*
 6. W konsoli mininet wydać polecenie: xterm h1 h2 s1
-7. W konsoli hosta h2 uruchomić skrypt nasłuchujący: *./h2.sh*\
-8. W konsoli hosta h1 uruchomić skrypt generujący ruch: *./h1.sh*\
+7. W konsoli hosta h2 uruchomić skrypt nasłuchujący: *bash /path/to/file/h2.sh*\
+8. W konsoli hosta h1 uruchomić skrypt generujący ruch: *bash /path/to/file/h1.sh*\
 9. W konsoli przełącznika s1 można wydać polecenie: *ovs-ofctl dump-flows s1* (odpowiednio s1, s2, s3, s4 w celu zaobserwowania dodawania poszczególnych wpisów przepływów)
 
 
