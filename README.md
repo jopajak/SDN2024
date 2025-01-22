@@ -7,6 +7,10 @@ Realizowany przez:
 * Joanna Pająk
 * Magdalena Podsiadło
 
+## Opis projektu 
+
+Celem projektu jest zademonstrowanie działania priorytetyzacji przepływów opartej na numerach portów warstwy czwartej TCP/IP. 
+Sieć składa się z czterech przełączników (dokładna topologia poniżej) i dwóch urządzeń końcowych. W sieci zdefiniowaliśmy dwa rodzaje przepływów - ruch priorytetowy voice i ruch tła. W sytuacji, gdy w sieci nie ma natłoku, pakiety głosowe są wysyłane współdzielonym łączem. Gdy szybkość transmisji wzrośnie powyżej 70% maksymalnej przepustowości, nowe przepływy głosowe są kierowane na dedykowane łącze w celu utrzymania pożądanych parametrów QoS.
 
 ## Kod kontrolera Floodlight
 
